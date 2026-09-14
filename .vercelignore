@@ -1,0 +1,9 @@
+# Ignore Python Machine Learning scripts and PyTorch dependencies on Vercel
+requirements.txt
+ml/
+data/
+models/
+temp_audio/
+*.py
+*.pt
+*.pth

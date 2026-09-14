@@ -1,5 +1,5 @@
 # Speech Emotion Recognition (SER) with TESS & Wav2Vec2
-# Core Machine Learning & Data Processing
+# Core Machine Learning & Data Processing (For local Python ML pipeline)
 kaggle>=1.7.0
 torch>=2.2.0
 torchaudio>=2.2.0
