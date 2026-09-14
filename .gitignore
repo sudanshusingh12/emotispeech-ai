@@ -1,35 +1,60 @@
-# Dependencies
+# Dependencies & Package Managers
 node_modules/
 .pnp
 .pnp.js
+bun.lock
+bun.lockb
 
-# Testing & Coverage
-coverage/
+# Python Virtual Environments & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
 
-# Build Outputs
-dist/
-build/
-*.tsbuildinfo
-
-# Datasets & Large Data
+# Datasets & Heavy Data Files
 data/
 *.wav
 *.mp3
 *.ogg
+*.flac
+*.aac
+*.m4a
 *.zip
-*.tar.gz
+*.tar
+*.gz
+*.7z
+*.rar
+*.csv
 
-# Model Checkpoints & Large Weights
+# Model Checkpoints & Binary Weights
 models/
 *.pt
 *.pth
 *.bin
 *.onnx
 *.safetensors
+*.ckpt
+*.h5
+*.tflite
 
-# Temporary Files & Audio Records
+# Build Outputs & Bundles
+dist/
+build/
+*.tsbuildinfo
+server.js
+dist/server.cjs
+
+# Temporary Audio Records & Logs
 temp_audio/
 *.log
+*.tmp
+*.temp
+*.bak
+*.swp
 
 # Environment Variables & Secrets
 .env*
@@ -37,6 +62,15 @@ temp_audio/
 
 # Deployment & Vercel
 .vercel/
+
+# Editor & IDE Configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # System Files
 .DS_Store
