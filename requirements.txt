@@ -1,0 +1,19 @@
+# Speech Emotion Recognition (SER) with TESS & Wav2Vec2
+# Core Machine Learning & Data Processing
+kaggle>=1.7.0
+torch>=2.2.0
+torchaudio>=2.2.0
+transformers>=4.40.0
+datasets>=2.19.0
+librosa>=0.10.1
+soundfile>=0.12.1
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# API Backend
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9

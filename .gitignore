@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Build Outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Datasets & Large Data
+data/
+*.wav
+*.mp3
+*.ogg
+*.zip
+*.tar.gz
+
+# Model Checkpoints & Large Weights
+models/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Temporary Files & Audio Records
+temp_audio/
+*.log
+
+# Environment Variables & Secrets
+.env*
+!.env.example
+
+# Deployment & Vercel
+.vercel/
+
+# System Files
+.DS_Store
+Thumbs.db

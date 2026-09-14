@@ -1,0 +1,27 @@
+{
+  "total_samples": 2800,
+  "emotions": {
+    "fear": 400,
+    "surprise": 400,
+    "sadness": 400,
+    "anger": 400,
+    "disgust": 400,
+    "happiness": 400,
+    "neutral": 400
+  },
+  "speakers": {
+    "OAF": 1400,
+    "YAF": 1400
+  },
+  "duration_mean_sec": 2.0551,
+  "duration_std_sec": 0.3208,
+  "duration_min_sec": 1.2541,
+  "duration_max_sec": 2.9848,
+  "sample_rates": [
+    24414,
+    96000
+  ],
+  "channels": [
+    1
+  ]
+}
